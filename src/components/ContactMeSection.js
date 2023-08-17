@@ -29,7 +29,7 @@ const LandingSection = () => {
       comment: ''
     },
     onSubmit: (values) => {
-      submit('https://pete.com/contactme', values)
+      submit('https://anastasia.com/contactme', values)
     },
     validationSchema: Yup.object({
       firstName: Yup.string().required('Required'),
